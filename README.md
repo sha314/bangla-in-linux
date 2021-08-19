@@ -17,13 +17,16 @@ I have prepared scripts for Fedora and Ubuntu. A user just need to download this
 
 ## 1. Install github-cli
 sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+
 sudo dnf install gh
 
 ## 2. download this repo
 gh repo clone sha314/bangla-in-linux
+
 cd bangla-in-linux
 ## make the script executable and run it
 chmod +x bijoy-fedora.sh
+
 ./bijoy-fedora.sh
 
 
